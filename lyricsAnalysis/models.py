@@ -16,7 +16,7 @@ class Artist(models.Model):
 
         # Set up API for Genius
         genius = lyricsgenius.Genius(
-            "fW2_PmKBf9pFAoXwVfCsFZrqnxCI9XJFuAQHrxp5k2pzFQKzvSlnYfIrQWEe8q7a")
+            "Insert your Genius API here")
 
         # Set parameters to exclude entries that don't match what we want.
         genius.excluded_terms = ["(Remix)", "(Live)"]
